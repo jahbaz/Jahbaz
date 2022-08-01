@@ -1,0 +1,41 @@
+.review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 1);
+}
+
+
+.icon {
+    text-align: center;
+}
+
+.imgy {
+    height: 30px;
+    width: 30px;
+
+    margin-left: px;
+
+
+}
+
+.imgt {
+    height: 30px;
+    width: 30px;
+
+    margin-left: 2px;
+}
+
+.lite {
+    height: 30px;
+    width: 30px;
+
+    margin-left: 2px;
+}
+
+.insta {
+    height: 30px;
+    width: 30px;
+
+    margin-left: 2px;
+}

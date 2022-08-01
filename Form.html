@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        .main {
+            text-align: center;
+            background-color: rgb(194, 193, 193);
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1 class="text-center text-info bg-success">Shohag palli Registration Form</h1>
+
+    <div class="main text-danger bold">
+        <form action="#" method="">
+            <fieldset class="form">
+                <div class="div_f_1">
+
+                    <label for="#">First name</label><br>
+                    <input type="text" name="UserF_name" id=""><br>
+                    <label for="#">Last name</label><br>
+                    <input type="text" name="UserL_name" id=""><br>
+                    <label for="#">User Email</label><br>
+                    <input type="email" name="userEmail"><br>
+                    <label for="#">Password</label><br>
+                    <input type="password" name="user_password"><br>
+                    <label for="#">Phone</label><br>
+                    <input type="number" name="user_number"><br>
+                    <label for="#">Gender</label>
+                    <input type="radio" name="Gender">Male
+                    <input type="radio" name="Gender">Female<br>
+                    <label for="#">Date of Birth</label><br>
+                    <input type="date" name="user_d_birth"><br>
+                </div>
+                <div class="div_f_2">
+                    <label for="#">Select Department</label><br>
+                    <select name="user_dept" id="">
+                        <option value="">Computer</option>
+                        <option value="">Civil</option>
+                        <option values="" selected>Food</option>
+                        <option value="">Power</option>
+
+                    </select><br>
+                    <label for="#">Religious</label><br>
+                    <input type="checkbox" name="religious">Islam
+                    <input type="checkbox" name="religious">Hindu<br>
+                    <label for="#">Age</label><br>
+                    <input type="number" min="18" max="30"><br>
+                    <label for="#">Choese your Photo</label><br>
+                    <input type="file" name="user_photo"><br>
+                    <label for="#">Permanent Address</label><br>
+                    <textarea name="user_addr" id="" cols="21" rows="5">Emter Your Address here</textarea><br>
+                    <input type="submit" name="submitBtn" class="subBtn">
+                    <input type="reset" name="resetBtn">
+
+                </div>
+
+
+            </fieldset>
+        </form>
+    </div>
+
+
+    <div class="text-center">
+        <h3 class="text-priary">
+            Are you sure back to Home page???
+        </h3>
+        <a class="btn btn-success" href="index.html">Yes</a>
+        <a class="btn btn-danger" href>No</a>
+
+
+    </div>
+    <script src="bootstrap.min.js"></script>
+
+</body>
+
+</html>

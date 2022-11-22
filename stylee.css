@@ -1,0 +1,39 @@
+.parent {
+    display: flex;
+    margin-left: 30%;
+    border: 1px solid;
+    margin-right: 30%;
+    padding: 20px;
+    background-color: rgb(238, 183, 116);
+}
+
+.second {
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 200px;
+    width: 180px;
+    background-color: black;
+    padding: 35px;
+}
+
+.same {
+    color: bisque;
+}
+
+.first {
+    margin-top: 20px;
+    border: 2px solid;
+    padding: 10px;
+    background-color: rgb(101, 235, 88);
+}
+
+.button {
+    background-color: rgb(230, 7, 26);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.text {
+    color: rgb(177, 81, 3);
+}
